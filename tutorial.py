@@ -15,10 +15,10 @@ recurrent_network = RecurrentNetwork.BLSTM
 optimizer = Optimizer.AdaBound
 
 trains_path = [
-    r"D:\TrainSet\***",
+    r"./images",
 ]
 
-test_num = 500
+test_num = 20
 hidden_num = 64
 beam_width = 1
 learning_rate = None
@@ -119,7 +119,7 @@ Trains:
   EndCost: 0.1
   EndEpochs: 2
   BatchSize: 128
-  TestBatchSize: 300
+  TestBatchSize: 10
   LearningRate: @learning_rate
   DecayRate: 0.98
   DecaySteps: 10000

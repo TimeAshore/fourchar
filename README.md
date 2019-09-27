@@ -209,7 +209,7 @@ cuDNN下载地址：https://developer.nvidia.com/rdp/form/cudnn-download-survey 
       EndCost: 0.1
       EndEpochs: 2
       BatchSize: 128
-      TestBatchSize: 300
+      TestBatchSize: 10
       LearningRate: 0.001
       DecayRate: 0.98
       DecaySteps: 10000

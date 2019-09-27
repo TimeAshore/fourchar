@@ -85,5 +85,3 @@ ENV/
 nohup.out
 
 model/*
-config.yaml
-model.yaml

@@ -18,6 +18,7 @@ System:
 # - and set the characters to be excluded by CharExclude parameter.
 Model:
   Sites: [
+   tutorial-mix-CNN5BLSTM-200x60-H64
   ]
   ModelName: tutorial-mix-CNN5BLSTM-200x60-H64
   ModelType: 200x60
@@ -87,7 +88,7 @@ Trains:
   TestSetNum: 20
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.95
+  EndAcc: 0.6
   EndCost: 0.1
   EndEpochs: 2
   BatchSize: 128

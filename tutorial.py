@@ -116,7 +116,7 @@ Trains:
   TestSetNum: @test_num
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.6
+  EndAcc: 0.8
   EndCost: 0.1
   EndEpochs: 2
   BatchSize: 128

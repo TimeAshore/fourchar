@@ -18,7 +18,7 @@ trains_path = [
     r"./images",
 ]
 
-test_num = 30
+test_num = 20
 hidden_num = 64
 beam_width = 1
 learning_rate = None

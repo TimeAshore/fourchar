@@ -85,10 +85,10 @@ Trains:
     "./images"
   ]
   TrainRegex: '.*?(?=_)'
-  TestSetNum: 20
+  TestSetNum: 50
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.8
+  EndAcc: 0.9
   EndCost: 0.1
   EndEpochs: 2
   BatchSize: 128

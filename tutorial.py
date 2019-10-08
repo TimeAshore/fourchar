@@ -18,7 +18,7 @@ trains_path = [
     r"./images",
 ]
 
-test_num = 20
+test_num = 50
 hidden_num = 64
 beam_width = 1
 learning_rate = None
@@ -116,7 +116,7 @@ Trains:
   TestSetNum: @test_num
   SavedSteps: 100
   ValidationSteps: 500
-  EndAcc: 0.8
+  EndAcc: 0.9
   EndCost: 0.1
   EndEpochs: 2
   BatchSize: 128

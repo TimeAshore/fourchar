@@ -78,6 +78,7 @@ ENV/
 .idea/
 # image file
 *.jpg
+*.jpeg
 *.png
 *.gif
 # linux系统生成的文件
@@ -85,3 +86,4 @@ ENV/
 nohup.out
 
 model/*
+logs/*

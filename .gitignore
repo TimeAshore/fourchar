@@ -85,5 +85,3 @@ ENV/
 *.pid
 nohup.out
 
-model/*
-logs/*

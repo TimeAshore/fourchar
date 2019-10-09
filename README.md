@@ -257,3 +257,34 @@ cuDNN下载地址：https://developer.nvidia.com/rdp/form/cudnn-download-survey 
 之前专门为该项目写的文章，欢迎大家点评
 
 https://www.jianshu.com/p/80ef04b16efc
+
+
+# 使用小结
+
+### 验证码
+位数：4  
+类型：数字 + 大写字母  
+
+训练集：1025张  
+测试集：50张   
+
+
+### 训练结果
+耗时：一天左右  
+INFO:tensorflow:Loading Trains DataSet...  
+INFO:tensorflow:Loading Test DataSet...  
+INFO:tensorflow:Total 1025 Trains DataSets  
+INFO:tensorflow:Total 50 Test DataSets  
+...  
+...  
+INFO:tensorflow:Epoch: 688, Step: 5500, Accuracy = 1.0000, Cost = 0.11108, Time = 0.381 sec/batch, LearningRate: 0.0010000000474974513
+
+### 最后
+
+在测试集上准确率100%，实际使用中准确率80+%  
+原因：因训练集较少，使用了较好识别的图片进行训练，然而实际使用中存在很难识别的图片，所以准确率会有误差
+
+
+当前标注的一千多张样本，是手动打的～_～，随着样本的增加，准确率会随之提升
+
+多次训练会有不一样的结果，有时收敛快，较少步数就有很高的准确率，有时收敛很慢，有一定的运气成分
